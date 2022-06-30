@@ -51,7 +51,7 @@ public class Sistema {
 		System.out.println("Salario: " + mesAno + " R$ "+ String.format("%.2f", funcionario.ganho(ano, mes)));
 		
 		
-		
+		sc.close();
 		
 		
 		

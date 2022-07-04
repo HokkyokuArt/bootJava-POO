@@ -1,7 +1,6 @@
 package entidades;
 
 import java.text.DateFormat;
-import java.time.Year;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
@@ -98,8 +97,8 @@ public class FuncionarioAula2 {
                     + tempoServico(dataAdmissao) + " anos, com salário atual de R$" + String.format("%.2f", salario)
                     + ".\n";
         else
-            return "\n" + nome + ", prontuário " + id + " trabalhou de " + f.format(dataAdmissao) + ", há "
-                    + tempoServico(dataAdmissao) + " anos, com salário atual de R$" + String.format("%.2f", salario)
+            return "\n" + nome + ", prontuário " + id + " trabalhou de " + f.format(dataAdmissao) + ", a "
+                    + f.format(desligamento) + " e seu último salário foi de R$" + String.format("%.2f", salario)
                     + ".\n";
 
     }

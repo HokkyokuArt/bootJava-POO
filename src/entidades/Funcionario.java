@@ -3,7 +3,6 @@ package entidades;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
-
 import entidades.enums.Nivel;
 
 public class Funcionario {
@@ -66,7 +65,7 @@ public class Funcionario {
 //	}
 
 	public void addContrato(Contrato contrato) {
-		contratos.add(contrato);
+		contratos.add(contrato); //  Contrato = classe contrato  |  contratos = lista  |  contrato = contrato mesmo
 	}
 	
 	public void removeContrato(Contrato contrato) {
